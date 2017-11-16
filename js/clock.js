@@ -31,7 +31,7 @@ $(function() {
             var hr = (seconds / 3600);
             var mn = (seconds / 60);
             var mm = mn - (hr * 60);
-            var fhr = Math.round(hr);
+            var fhr = Math.floor(hr);
             var fmn = Math.round(mm);
             fseconds = (fhr + ":" + fmn);
         }
