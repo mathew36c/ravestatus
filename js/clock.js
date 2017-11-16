@@ -67,7 +67,6 @@ $(function() {
             
             $("#statusButton").html(selected_status);
             
-            
         }
         
         
