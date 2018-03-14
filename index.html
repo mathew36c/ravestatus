@@ -7,10 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <style type="text/css">
-    @import url('https://fonts.googleapis.com/css?family=Raleway:300');
+	@font-face {
+	  font-family: 'Raleway';
+	  src: url('fonts/Raleway-Light.ttf') format('truetype');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
     * {
-      font-family: Raleway;
+      font-family: 'Raleway';
     }
     h6 {
       margin: 10px;
@@ -44,6 +49,7 @@
               <input type="radio" name="status" value="On a case"> On a case<br>
               <input type="radio" name="status" value="Research"> Research<br>
               <input type="radio" name="status" value="Lunch"> Lunch<br>
+              <input type="radio" name="status" value="Break"> Break<br>
               <input type="radio" name="status" value="After call work"> After call work<br>
               <input type="radio" name="status" value="Mentoring"> Mentoring<br>
               <input type="radio" name="status" value="Training"> Training<br>
